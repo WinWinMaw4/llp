@@ -41,6 +41,7 @@ class CategoryController extends Controller
     {
         //
 //        return $request;
+//        Category() is model
         $category = new Category();
         $category->title=$request->title;
         $category->save();
